@@ -1,0 +1,55 @@
+Multichar_Symbols +N +Sg +Pl +Nom +Gen +Dat +Acc +Loc
+
+LEXICON Root						
+Noun ;
+
+LEXICON Noun
+
+vēj N1dekl;
+zēn N1dekl;
+dzīvniek N1dekl;
+
+šķīv N2dekl;
+ez N2dekl;
+ron N2dekl;
+
+mas N4dekl;
+jūr N4dekl;
+alg N4dekl;
+
+
+LEXICON N1dekl
++N+Sg+Nom:^s  # ;
++N+Sg+Gen:^a # ;
++N+Sg+Dat:^am # ;
++N+Sg+Acc:^u # ;
++N+Sg+Loc:^ā # ;
++N+Pl+Nom:^i  # ;
++N+Pl+Gen:^u  # ;
++N+Pl+Dat:^iem # ;
++N+Pl+Acc:^us # ;
++N+Pl+Loc:^os # ;
+
+LEXICON N2dekl					
++N+Sg+Nom:^is  #;
++N+Sg+Gen:^Ma  #;
++N+Sg+Dat:^im #;
++N+Sg+Acc:^i #;
++N+Sg+Loc:^ī #;
++N+Pl+Nom:^Mi  #;
++N+Pl+Gen:^Mu  #;
++N+Pl+Dat:^Miem #;
++N+Pl+Acc:^Mus #;
++N+Pl+Loc:^Mos #;
+
+LEXICON N4dekl					
++N+Sg+Nom:^a  #;
++N+Sg+Gen:^as #;
++N+Sg+Dat:^ai #;
++N+Sg+Acc:^u #;
++N+Sg+Loc:^ā #;
++N+Pl+Nom:^as  #;
++N+Pl+Gen:^u  #;
++N+Pl+Dat:^ām #;
++N+Pl+Acc:^as #;
++N+Pl+Loc:^ās #;
